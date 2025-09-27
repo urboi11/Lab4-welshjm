@@ -8,10 +8,12 @@ import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
+
 
 @Entity
+@Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class Addresses {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
